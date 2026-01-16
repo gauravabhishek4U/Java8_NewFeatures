@@ -1,0 +1,19 @@
+A functional interface can have the following:
+    - Only one abstract method
+    - Multiple default methods
+    - Multiple static methods
+    - Multiple private methods (from java 9)
+    - Multiple private static methods (from java 9)
+
+
+Following are the lists of some built-in functional interfaces:
+    - Predicate
+    - BiPredicate
+    - Function
+    - BiFunction
+    - Unary Operator
+    - Binary Operator
+    - Consumer
+    - BiConsumer
+    - Supplier
+    - Primitive Functional Interfaces
