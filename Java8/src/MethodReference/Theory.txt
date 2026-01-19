@@ -1,0 +1,33 @@
+A method reference in Java is a concise shorthand syntax for a lambda expression that refers to an existing method or constructor.
+Method references, introduced in Java 8, improve code readability and reduce boilerplate by allowing you to pass a method's name as an argument where a functional interface is expected.
+
+There are three types of Method References:
+    - Static Method Reference
+    - Instance Method Reference
+    - Constructor Method Reference
+
+A new operator :: (double colon) called as Method Reference Delimiter to specify Method References
+
+
+Static Method Reference :
+    - Allows to access existing static methods
+
+    Syntax - Class::staticMethod
+    Example -   Hello hello = MyInteger::findSum;
+                (Here, Hello is a functional interface)
+
+
+Instance Method Reference :
+    - Allows to access existing instance or non-static methods
+
+    Syntax - objRef::instanceMethod
+    Example -   MyInteger myIntRef = new MyInteger();
+                Hello hello = MyIntRef::findSum;
+                 (Here, Hello is a functional interface)
+
+
+Constructor Reference :
+    - Allows to access constructor of a class to create the object
+
+    Syntax - Class::new
+    Example - Hello hello = Class::new;
